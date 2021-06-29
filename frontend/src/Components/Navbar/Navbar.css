@@ -1,0 +1,59 @@
+.navbarbg{
+    background:rgba(150, 56, 228, 0.7);
+}
+
+.navbar-brand{
+    color:white;
+    transform: scale(1.5);
+    margin-left: 2%;
+}
+
+.D{
+    color:violet;
+}
+
+.navbar-brand:hover{
+    color: violet !important;
+}
+
+.navbar-brand:hover .D{
+    color: white;
+}
+
+
+.nav-item{
+    padding: 0 3%;
+}
+
+.nav-link{
+    color: violet !important;
+}
+
+.nav-link:hover{
+    color: white !important;
+}
+
+li{
+    font-size: 1.5rem !important;
+}
+
+.activelink{
+    color: white !important;
+    border-bottom: 1px solid violet;
+}
+
+.far{
+    color: white;
+    transform: scale(1.4);
+}
+
+.far:hover{
+    color:violet;
+    cursor: pointer;
+}
+
+@media(max-width:1000px){
+    .nav-item{
+        padding: 0;
+    }
+}
